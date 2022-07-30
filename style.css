@@ -34,12 +34,28 @@ nav {
 
 
 body {
+   
+
+
+}
+
+main {
     background: url("depositphotos_51408571-stock-photo-two-buses-on-highway-in.jpg") no-repeat
-center center ;
-    background-size: cover;
-    height: 100vh;
+    center center ;
+        background-size: cover;
+        height: 100vh;
     
 }
+
+
+section {
+    background-color: #B30F00;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    
+}
+
 
 .nav-list {
     list-style: none;
