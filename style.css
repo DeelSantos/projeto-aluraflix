@@ -1,10 +1,38 @@
 @charset "UTF-8";
 
-nav {
-    background-color: black;
-    padding: 0 20px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-h1, p {
-    color: whitesmoke;
+
+nav {
+    background-color:#4F3A2C;
+    padding: 40px 40px;
+    justify-content: space-between;
+    
+}
+
+h1 {
+    font-size: 3em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    transition: 1s;
+    color: brown;
+}
+
+nav,  .nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li {
+    padding: 10px 20px 0 20px;
 }
