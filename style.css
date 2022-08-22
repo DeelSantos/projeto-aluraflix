@@ -1,12 +1,10 @@
 @charset "UTF-8";
 
-header {
-    background-color: brown;
-}
-
 nav {
-    display: flex;
-    
+    background-color: black;
+    padding: 0 20px;
 }
 
-
+h1, p {
+    color: whitesmoke;
+}
