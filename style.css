@@ -6,33 +6,25 @@
 }
 
 
-nav {
-    background-color:#4F3A2C;
-    padding: 40px 40px;
-    justify-content: space-between;
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+.principal {
+    background-image: url(imagens/Background.png);
+    background-repeat: no-repeat;
     
 }
 
-h1 {
-    font-size: 3em;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-}
-
-nav a:hover {
-    transition: 1s;
-    color: brown;
-}
-
-nav,  .nav-list {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-}
-
-li {
-    padding: 10px 20px 0 20px;
+.container {
+    height: 100vh;
 }
