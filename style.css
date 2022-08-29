@@ -12,19 +12,41 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
+    --font-principal: 'Inter';
 }
 
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .principal {
     background-image: url(imagens/Background.png);
     background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
 .container {
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--cinza-secundario)
 }
