@@ -53,6 +53,13 @@ body {
     border: 2px solid var(--branco-principal)
 }
 
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+
+}
+
 .container__aviso {
     font-size: 11px;
     color: var(--cinza-secundario);
@@ -71,3 +78,31 @@ body {
 .container__caixa {
     margin: 0 6em;
 }
+
+.secundario__imagem {
+    width: 80%;
+    
+}
+
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--branco-principal);
+    margin-bottom: 6px;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+
+}
+
