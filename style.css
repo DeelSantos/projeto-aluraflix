@@ -159,3 +159,15 @@ body {
     font-weight: 400;
     color: var(--cinza-secundario);
 }
+
+.link__ativos:hover {
+    color: var(--botao-azul);
+    text-decoration: underline;
+}
+
+.container__botao:hover {
+    background-color: #0d4b97;
+    color: var(--cor-de-fundo);
+    transition: 1s;
+}
+
